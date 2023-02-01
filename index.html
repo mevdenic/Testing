@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Testing</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="img">
+    <header>
+        <nav>
+            <h1 class="logo">Fitness Calculators</h1>
+            <ul class="menu">
+                <li><a href="#" class="active">Home Calculator</a></li>
+                <li><a href="#">BMI Calculator Calculator</a></li>
+                <li><a href="#">RM Calculator Calculator</a></li>
+                <li><a href="#">Calorie Calculator </a></li>
+            </ul>
+        </nav> 
+    </header>
+        
+
+    <div class="flexbox">
+        <div class="card">
+            <h2>BMI Calculator</h2>
+            <div class="input">
+                <input type="number" id="height" placeholder="Height in meters">
+                <input type="number" id="weight" placeholder="Weight in kilograms">
+                <button onclick="calculateBMI()">Calculate</button>
+            </div>
+            <div id="result">Test Text</div>
+            <div class="stats">
+                <div class="stat" id="one">Underweight<br>&lt; 18.5</div>
+                <div class="stat" id="two">Normal<br>18.5 - 25</div>
+                <div class="stat" id="three">Overweight<br>25 - 30</div>
+                <div class="stat" id="four">Obese<br>&gt; 30</div>
+            </div>
+         </div>
+    </div>
+    <script src="main.js"></script>
+    </div>
+</body>
+</html>

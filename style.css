@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.6), rgba(36, 2, 2, 0.6)), url("modern-home-gym.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav, .menu, .logo{
+    display: flex;
+}
+
+nav{
+    justify-content:space-between; 
+    padding: 5px;
+    background-color: rgb(37, 2, 0);
+    color: white;
+    
+}
+
+.logo{
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.menu li{
+    padding: 5px; 
+    /* flex: 1; */
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1; */  
+}
+
+.menu li:hover{
+    background-color: rgb(255, 0, 0);
+    /* color: red; */
+    transition: 1s;
+    border-radius: 30px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.flexbox, .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.card{
+    background: rgba(0, 0, 0, 0.438);
+    height: 600px;
+    width: 550px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+    flex: 1;
+}
+
+h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 0px;
+}
+
+input{
+    height: 70px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+   
+}
+
+#result{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+   
+}
+
+.stats{
+    display: flex;
+    margin-bottom: 80px;
+    color: black;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.stat{
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:600;
+}
+
+#one{
+    background-color: rgb(255, 209, 4);
+}
+#two{
+    background-color: rgb(17, 192, 17);
+}
+#three{
+    background-color: rgb(211, 128, 5);
+}
+#four{
+    background-color: red;
+}
